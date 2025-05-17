@@ -102,16 +102,16 @@ class QuizApp:
 
         if selected == correct:
             self.score += 1
-            messagebox.showinfo("Result", "✅ Correct!")
+            messagebox.showinfo("Result", " Correct!")
         else:
-            messagebox.showinfo("Result", f"❌ Wrong! Correct Answer: {correct}")
+            messagebox.showinfo("Result", f" Wrong! Correct Answer: {correct}")
 
         self.current_question += 1
 
         if self.current_question < len(questions):
             self.load_question()
         else:
-            messagebox.showinfo("Quiz Completed", f"🎉 Your final score is: {self.score}/{len(questions)}")
+            messagebox.showinfo("Quiz Completed", f" Your final score is: {self.score}/{len(questions)}")
             self.root.destroy()
 
 # Run the Quiz App
