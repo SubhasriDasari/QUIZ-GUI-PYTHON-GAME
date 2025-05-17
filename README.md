@@ -3,19 +3,19 @@ To develop an interactive and educational GUI-based Python quiz application that
  
  
  Key Features:
-✅ Graphical User Interface using Tkinter
+1. Graphical User Interface using Tkinter
 
-✅ Ten well-curated multiple-choice questions
+2.Ten well-curated multiple-choice questions
 
-✅ Instant feedback after each submission
+3. Instant feedback after each submission
 
-✅ Score tracking
+4. Score tracking
 
-✅ Final result display
+5. Final result display
 
-✅ Input validation (e.g., prevents proceeding without selecting an answer)
+6.Input validation (e.g., prevents proceeding without selecting an answer)
 
-🧰 Technologies Used:
+ Technologies Used:
 
 Component	Technology Used
 Language	Python 3.x
@@ -28,7 +28,7 @@ Quiz Logic: Handles displaying questions, checking answers, and updating score.
 
 User Interface: Built with tkinter.Label, tkinter.Radiobutton, tkinter.Button, and tkinter.messagebox.
 
-🧠 Learning Outcomes:
+ Learning Outcomes:
 Designing Python GUI applications using Tkinter
 
 Understanding event-driven programming
